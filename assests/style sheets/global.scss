@@ -1,0 +1,19 @@
+*,*::after,*::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    // overflow-x: hidden;
+}
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: josefin;
+    src: url(../fonts/josefin/JosefinSlab-VariableFont_wght.ttf);
+}
